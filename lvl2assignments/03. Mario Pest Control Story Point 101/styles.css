@@ -1,0 +1,108 @@
+body {
+    margin: 0; 
+    padding: 0;
+    background-image: url('/background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: red;
+    color:white;
+    border: 15px ridge yellow;
+}
+
+h1 {
+    display: flex;
+    font-size: 30px;
+    justify-content:center;
+    background-color: red;
+    color:white;
+    border: 15px ridge yellow;
+}
+
+form {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+ .baddie {
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .85);
+    border: 7px ridge yellow;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 25px;
+    text-align: center;
+ }
+
+ ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+ }
+
+ li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+button {
+    height: 250px;
+    width: 250px;
+    font-size: 30px;
+    display: block;
+    border: 10px ridge yellow;
+    padding: 10px 20px;
+    background-image: url('/block.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+}
+
+#baddieBustedTotal {
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: 5px ridge yellow;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+    border: 5px ridge yellow;
+    margin: 0;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 430px) {
+
+}

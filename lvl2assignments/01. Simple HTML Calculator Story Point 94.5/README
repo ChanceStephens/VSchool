@@ -1,0 +1,18 @@
+Simple HTML Calculator Story Point 94.5
+
+You are going to create a simple calculator that can Add, Subtract, and Multiply.
+
+**Requirements:**
+
+01. - You will have one section (`<div>`) for each math operation (so 3 sections) total
+
+02. - Each section has two inputs to take the first and second numbers
+
+03. - Each section will have a button to perform the operation
+
+04. - You will inject the result into the HTML (not an alert)
+
+05. - Your website will have 3 colors
+
+06. - Your website will have proper padding/spacing to lay things out nicely
+

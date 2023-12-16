@@ -1,0 +1,50 @@
+body {
+    display:flex;
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+    background: url(/airplane.png);
+    background-size: cover;
+    
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background:rgba(255, 255, 255, 0.664);
+    width: 750px;
+    margin:0px;
+    border: 3px groove black
+
+}
+
+.gender {
+    display:flex;
+    flex-direction: row;
+    margin-top:0px;
+}
+
+.where {
+    display:flex;
+    margin-top:0px;
+
+}
+
+.food {
+    display: flex;
+    flex-direction: row;
+    margin-top:0px;
+}
+
+.greeting {
+    background:rgba(255, 255, 255, 0.664);
+    width: 750px;
+    margin:0px;
+    border: 3px groove black
+}
+
+button {
+    margin-top: 15px;
+}

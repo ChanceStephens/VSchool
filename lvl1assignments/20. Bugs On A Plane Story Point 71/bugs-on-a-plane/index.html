@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Form</title>
+</head>
+<body>  <!--  -->
+    <h1>Welcome to Blah Blah Airlines!</h1>
+    <p>Please fill out the folowing form so we don't accidentaly kill you, Yay...</p>
+    <form id="airline-form">        
+            <input type="text" name="first-name" id="first-name">  <!-- added id="first-name" -->
+            <label for="first-name">First Name</label>  <!-- added first-name between "" -->
+            <br>
+            <input type="text" name="last-name" id="last-name">    <!-- added id="last-name" -->
+            <label for="last-name">Last Name</label> <!-- added last-name between "" -->
+            <br>
+            <input type="number" name="age" id="age"> <!-- added id="age" removed "digit" and replaced with "number"-->
+            <label for="age">Age</label>   <!-- added age between "" -->
+            <br><!-- corrected <b></b> -->        
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="gender" value="meh.." id="meh">
+            <label for="meh">Meh..</label>
+            <br>        
+            <label for="travel-location">Where are you going?</label> <!-- Moved beside select box not under and added "travel-location" to the for attribute-->
+            <br>    <!-- inserted a <br>  -->
+            <select name="travel-location">
+                <option value="here">Here</option>
+                <option value="there">There</option>
+                <option value="overthere">Somewhere else</option>
+            </select>            
+            <br>    <!-- inserted a <br>  -->           
+            <br>
+            <input class="diet" type="checkbox" name="vegan" id="vegan" value="vegan">
+            <label for="vegan">Vegan</label>
+            <br> <!-- corrected <b> -->
+            <input class="diet" type="checkbox" name="gluten" id="gluten" value="gluten-free"> 
+            <!--                        ^ changed box to checkbox-->
+            <label for="gluten">Gluten-free</label>
+            <br>
+            <input class="diet" type="checkbox" name="paleo" id="paleo" value="paleo">
+            <label for="paleo">Paleo, jk you eat what we give you!</label>
+            <br>        
+        <br>    <!-- inserted a <br>  -->
+            <button type="button" id="submit">Submit</button>
+    </form>
+     <script src="app.js"></script><!-- linked app.js file -->
+</body>
+</html>

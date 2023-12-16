@@ -1,0 +1,61 @@
+body {
+    background-image: url('../wakanda/wakanda/341448-featured.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(75, 1, 154, .6), rgba(0, 0, 0, 0));
+    width: 100%;
+    z-index: 1000;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 40px;
+    background-color: rgba(149, 196, 188, 0);
+    border-width: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navDropContainer {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* background-color: rgba((7,2,17) .5); */
+    background: linear-gradient(to right, rgba(75, 1, 154, .6), rgba(0, 0, 0, 0));
+    flex-direction: column;
+}
+
+.navDrop {
+    display: inline-flex;
+    
+}
+
+a {
+    display: block;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    text-decoration: none;    
+}

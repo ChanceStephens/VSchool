@@ -1,0 +1,37 @@
+body {
+    background-image: url('/images/carpov.jpg');
+    background-size: cover;
+    /* background-position: fixed;  */
+    background-repeat: no-repeat;
+  }
+
+button {
+    background-image: url('/images/images\ \(1\).png');
+    background-size: cover;
+    height: 175px;
+    width: 200px;
+}
+
+
+
+
+
+/* #highScoresContainer {
+    text-align: center;
+  }
+  
+  #highScoresTable {
+    width: 300px;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  #highScoresTable th, #highScoresTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #highScoresTable th {
+    background-color: #4CAF50;
+    color: white;
+  } */

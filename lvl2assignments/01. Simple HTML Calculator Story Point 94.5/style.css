@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding-top: 200px;
+    
+}
+
+h2 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+form {    
+    width: 100%; 
+}
+
+h4 {
+    margin: 15px;
+}
+
+button {
+    margin: 15px;
+}
+
+.add {   
+    background-color: rgb(250, 2, 147);
+    border: 5px double black;
+}
+
+.subtract {    
+    background-color: rgb(113, 255, 125);    
+    border: 5px double black;    
+}
+
+.multiply {    
+    background-color: rgb(60, 245, 229);    
+    border: 5px double black;    
+}

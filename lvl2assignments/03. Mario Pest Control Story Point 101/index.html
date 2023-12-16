@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>Mario's Baddie Buster Pest Control</header> <!--A large title at the top of the page entitled "Mario Pest Control" -->
+        <h1 id="billingTitle">Baddie Buster Billing</h1>
+        <form id="baddieCalculator">
+            <div class="listContainer">
+                <ol>
+                    <li type="goomba">
+                        <div class="baddie" id="goomba">
+                            <img src="/goomba.webp"><!--Have baddie image-->
+                            <h3>Goombas: 5 Gold Coins</h3><!--Have baddie name & Show price of that baddie-->
+                            Total Caught: <input type="number" id="goombaInput" name="goomba" required><!--their own input box to enter the total caught of that type-->
+                        </div>
+                    </li>
+                    <li type="bobomb">
+                        <div class="baddie" id="bobomb">
+                            <img src="/bobomb.webp"><!--Have baddie image-->
+                            <h3>Bob-ombs: 7 Gold Coins</h3><!--Have baddie name & Show price of that baddie-->
+                            Total Caught: <input type="number" id="bobombsInput" name="bobomb" required><!--their own input box to enter the total caught of that type-->
+                        </div>
+                    </li>
+                    <li type="cheep" >
+                        <div class="baddie" id="cheep">
+                            <img src="/cheep.webp"><!--Have baddie image-->
+                            <h3>Cheep-cheeps: 11 Gold Coins</h3><!--Have baddie name & Show price of that baddie-->
+                            Total Caught: <input type="number" id="cheepInput" name="cheep" required><!--their own input box to enter the total caught of that type-->
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="buttonContainer">
+                <button id="baddieListSubmit">
+                    <h3 id="submit">Submit</h3>
+                </button>
+            </div>        
+        </form>
+        <div class="billng"><!--A total price at the bottom that adds sums the total cost of baddies caught-->
+            <h3 id="baddieBustedTotal"></h3>
+        </div>
+        <footer>                                                     <!--A footer showing:-->
+           <h5>Email:   mario@mushroommail.com</h5>                    <!--Mario's email address-->        
+           <h5>Adresss:   1 Warp Pipe Lane, Mushroom Kingdom 123MK</h5><!--Mario's physical address-->
+           <h5>Phone:   1-800-ITS-A-ME</h5>
+           <h5>Website:   www.mariosbaddiebusters.com</h5><!--Mario's company website URL-->
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

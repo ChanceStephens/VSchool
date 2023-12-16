@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://img.wallpapic.com/i8229-425-149/thumb/turntables-gramophone-record-red-pink-wallpaper.jpg);
+    background-size: cover;
+    position: relative; 
+    margin: 25px;    
+}
+
+h1{
+    margin: 8px; 
+}
+
+h3{
+    margin: 10px;
+}
+
+#header{
+    font-size: large;
+    object-position: center;
+    text-align: center;
+    margin: 60px;
+    padding: 15px;  
+    }
+
+img{
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;    
+}

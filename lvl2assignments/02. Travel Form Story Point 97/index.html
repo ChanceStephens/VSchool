@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>"Limited Airlines"</title>
+    </head>
+    <body>
+        <div class="greeting">
+            <h1>Limited Airlines</h1>
+            <img src="cd/../airplane.png" alt="TakeOff">
+            <h3>Where your choices are limited, but the prices are not!</h3>
+        </div>        
+        <form name="flyerForm">
+            <h3>The folling information is needed to book your trip.</h3>
+            <h4>Please enter your First and Last name as well as your age.</h4>
+            <div class="fullName">
+                <input type="text" placeholder="First Name" name="first" required>
+                <br>
+                <input type="text" placeholder="Last Name"name="last"required>
+                <br>
+            </div>
+            <div class="age"></div>
+                <input type="number" placeholder="Age" name="age"required>
+                <br>
+            </div>
+            <h4>Please select how you identify</h4>
+            <div class="gender">
+                <input type="radio" name="gender" value="Male">     Male
+                <br>
+                <input type="radio" name="gender" value="Female">   Female
+                <br>
+                <input type="radio" name="gender" value="Other">    I do not identify as Male or Female
+                <br>
+            </div>
+            <h4>Where is your destination?</h4>
+            <div class="where">
+                <select name="destination">Destinations
+                    <option value="timbuktu">Timbuktu</option>
+                    <option value="boondocks">The Boondocks</option>
+                    <option value="bermuda">The Bermuda Triangle</option>
+                    <option value="atlantis">Lost City of Atlantis</option>
+                </select>
+            </div>
+            <br>
+            <h4>Do you have any dietary restrictions or special request? (Select all that apply)</h4>
+            <div class="food">
+                <input type="checkbox" value="Allergy to veggies" name="diet">Meatatarian
+                <input type="checkbox" value="Meal must contain Sweets" name="diet">Sweetootharian
+                <input type="checkbox" value="Food must not touch each other" name="diet">Food Can't Touch
+                <input type="checkbox" value="So picky, only ranch will do" name="diet">Cover It In Ranch
+                <br>
+            </div>
+            <button name="submit">Submit (We promise we won't sell your info)</button>
+    </form>
+        <script src="app.js"></script>
+    </body>
+</html>
