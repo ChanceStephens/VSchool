@@ -1,0 +1,138 @@
+body {
+    background-image: url(/5427483072456562319_2193592663_22-01-2024-15-09-15.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.buttonContainer {    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 48px;
+    /* background-color: black; */
+}
+
+.button {
+    display: flex; /* Make it a flex container */
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+#one {
+    background-color: #FF1493;
+}
+#one:hover {
+    background-image: url(/8951762306697624200_3261605831_23-01-2024-14-38-01.png);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0px 0px 25px 25px #FF1493;
+    color: white;
+    height: 700px;
+    transition: height 0.5s ease;
+    
+}
+
+#two {
+    background-color: #00FF00;
+}
+#two:hover {
+    background-image: url(/4886535268116404424_2951866164_23-01-2024-14-41-47.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #FFD700;
+    box-shadow: 0px 0px 15px 15px #00FF00;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+}
+
+
+#three {
+    background-color: #00BFFF;
+}
+#three:hover {
+    background-image: url(/2383465805508983711_787928334_23-01-2024-14-41-21.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #FF4500;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    transition: border 0.5s ease, border-radius 0.5s ease, padding 0.5s ease, margin 0.5s ease;
+}
+
+#four {
+    background-color: #FFA500;
+}
+#four:hover {
+    background-image: url(/4323155422483399977_2280443595_23-01-2024-14-42-14.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotate(45deg);
+    margin: 15px;
+    padding: 10px;
+    transition: transform 0.5s ease, margin 0.5s ease, padding 0.5s ease;
+}
+
+#five {
+    background-color: #FFFF00;
+}
+#five:hover {
+    background-image: url(/3531981262492896874_569936084_23-01-2024-14-38-21.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #FFFF00;
+    transition: margin 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease;
+}
+
+#six {
+    background-color: #8A2BE2;
+}
+#six:hover {
+    background-image: url(/3315197093436922264_2425772797_23-01-2024-14-40-15.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    box-shadow: 0px 0px 10px #8A2BE2;
+    width: 80px;
+    height: 80px;
+    transition: opacity 0.5s ease, box-shadow 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+audio {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FF1493;
+    border-radius: 20px;
+
+}
+
+audio:hover {
+    box-shadow: 0px 0px 100px 100px #FF1493;
+}
+
+
+
+
+
+
