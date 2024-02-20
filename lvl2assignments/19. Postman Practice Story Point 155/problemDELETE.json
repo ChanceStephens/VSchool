@@ -1,0 +1,10 @@
+{
+    "_id": "65ba257178fe452c114b0c1c",
+    "title": "DELETE one single todo",
+    "description": "DELETE one single todo using its id property.",
+    "price": 1,
+    "imgUrl": "http://path-to-url.jpg",
+    "completed": false,
+    "sessionId": "chancestephens",
+    "__v": 0
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+    <p>https://pictures.dealer.com/b/braman3/1702/ab3178501b95c844cc6c758ecb745228x.jpg</p><!--quick access to an image URL-->
+    <form name="addToDoItem">
+      <label for="toDo">To-Do: </label><br>
+        <input type="text" id="title" name="title" placeholder="Your To-do Reminder" required><br>
+      <label for="description">Description: </label><br>
+        <input type="text" id="description" name="description" placeholder="(Optional)"><br>
+      <label for="price">Price: </label><br>
+        <input type="number" id="price" name="price" placeholder="(Optional)"><br>
+      <label for="imgUrl">Add A Picture: </label><br>
+        <input type="url" id="imgUrl" name="imgUrl" placeholder="(Optional)"><br>
+      <!-- <label for="completed">Completed: </label><br>
+      <label for="completed">Yes </label>
+        <input type="radio" for="completed" id="completedYes" name="completedYes" placeholder="(Optional)">
+      <label for="completed">No </label>        
+        <input type="radio" for="completed" id="completedNo" name="completedNo" placeholder="(Optional)"><br> -->
+      <input type="submit" value="submit">
+    </form>
+    <form name="myToDoList">
+      <ol name="orderedToDoList" id="toDoList" class="toDoList" start="1">
+        <!--<li><input type="checkbox" name="toDoItem"><label>"The To Do Item"</label></li>-->
+      </ol>      
+    </form>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

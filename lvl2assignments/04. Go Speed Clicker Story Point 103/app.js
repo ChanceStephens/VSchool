@@ -22,8 +22,8 @@ goButton.addEventListener('click', function(event) {
             localStorage.setItem('clickCount', clickCount); // Store the updated click count
         }, 1000);
 
-        // Set a fixed 30 seconds countdown timer
-        startCountdown(30);
+        // Set a fixed 10 seconds countdown timer
+        startCountdown(10);
 
         countdownStarted = true; // Set the flag to true
     }
@@ -42,8 +42,8 @@ goButton.addEventListener('click', function(event) {
             localStorage.setItem('clickCount', clickCount); // Store the updated click count
         }, 1000);
 
-        // Set a fixed 30 seconds countdown timer
-        startCountdown(30);
+        // Set a fixed 10 seconds countdown timer
+        startCountdown(10);
 
         countdownStarted = true; // Set the flag to true
     }

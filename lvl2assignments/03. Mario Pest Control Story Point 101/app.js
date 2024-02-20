@@ -1,4 +1,3 @@
-/*==========|  |==========*/ /*TEMPLATE*/
 const baddieForm = document.baddieCalculator
 /*==========| Number Array of User Input Values |==========*/
 const baddiesArray = [0] 

@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0; 
     padding: 0;
     background-image: url('/background.jpg'); 
@@ -44,6 +44,7 @@ form {
     margin: 25px;
     text-align: center;
  }
+ 
 
  ol {
     display: flex;
@@ -105,4 +106,4 @@ footer {
 }
 @media screen and (max-width: 430px) {
 
-}
+} 

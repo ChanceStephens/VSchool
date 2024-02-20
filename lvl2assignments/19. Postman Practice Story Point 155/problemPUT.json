@@ -1,0 +1,10 @@
+{
+    "_id": "65ba259e78fe452c114b0c1e",
+    "title": "PUT one single todo",
+    "description": "PUT one single todo using its id property.",
+    "price": 1,
+    "imgUrl": "http://path-to-url.jpg",
+    "completed": false,
+    "sessionId": "chancestephens",
+    "__v": 0
+}

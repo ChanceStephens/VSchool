@@ -19,3 +19,16 @@ finally {
 }
 */
 
+//app.js
+
+// const axios = require("axios");
+
+axios.get("https://api.vschool.io/pokemon")
+  .then(response => {
+    // Step two - Display the data
+    displayData(response.data.results);
+  })
+  .catch(error => {
+    // Handle errors if any
+    console.error('Error fetching Pokémon data:', error);
+  });

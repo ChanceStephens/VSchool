@@ -1,0 +1,37 @@
+Postman Practice Story Point 155
+
+1. Use Postman to GET a list of planets.
+problem1.json
+https://swapi.dev/api/planets
+
+2. Use Postman to GET a single person object.
+problem2.json
+https://swapi.dev/api/people/4
+
+3. GET one single todo using its id property.
+problemGET.json
+https://api.vschool.io/chancestephens/todo/65ba252978fe452c114b0c1a
+
+4. DELETE one single todo using its id property.
+problemDELETE.json
+https://api.vschool.io/chancestephens/todo/65ba257178fe452c114b0c1c
+{
+    "msg": "Successfully deleted record"
+}
+
+5. PUT one single todo using its id property.
+problemPUT.json
+https://api.vschool.io/chancestephens/todo/65ba259e78fe452c114b0c1e
+
+- Switched "completed" to true,
+{
+    "_id": "65ba259e78fe452c114b0c1e",
+    "title": "DELETE one single todo",
+    "description": "DELETE one single todo using its id property.",
+    "price": 1,
+    "imgUrl": "http://path-to-url.jpg",
+    "completed": true,
+    "sessionId": "chancestephens",
+    "__v": 0
+}
+

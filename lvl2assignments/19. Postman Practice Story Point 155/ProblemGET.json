@@ -1,0 +1,10 @@
+{
+    "_id": "65ba252978fe452c114b0c1a",
+    "title": "GET one sing todo",
+    "description": "GET one single todo using its id property.",
+    "price": 1,
+    "imgUrl": "http://path-to-url.jpg",
+    "completed": false,
+    "sessionId": "chancestephens",
+    "__v": 0
+}

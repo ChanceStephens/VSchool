@@ -1,0 +1,168 @@
+{
+    "jsonsDeli": [
+        {
+            "appetizers": [
+                {
+                    "name": "Crispy Calamari",
+                    "ingredients": [
+                        "Fresh calamari rings",
+                        "seasoned flour",
+                        "vegetable oil",
+                        "marinara sauce"
+                    ],
+                    "description": "Golden-fried calamari rings, perfectly crispy on the outside and tender on the inside. Served with a side of zesty marinara sauce for dipping."
+                },
+                {
+                    "name": "Spinach Artichoke Dip",
+                    "ingredients": [
+                        "Spinach",
+                        "artichoke hearts",
+                        "cream cheese",
+                        "sour cream",
+                        "Parmesan",
+                        "garlic",
+                        "tortilla chips"
+                    ],
+                    "description": "Creamy spinach and artichoke dip, baked until bubbly and golden brown. Served with warm tortilla chips for a delightful combination of flavors."
+                },
+                {
+                    "name": "Bruschetta Platter",
+                    "ingredients": [
+                        "Baguette slices",
+                        "tomatoes",
+                        "fresh basil",
+                        "balsamic glaze"
+                    ],
+                    "description": "Toasted baguette slices topped with a fresh mixture of diced tomatoes, aromatic basil, and a drizzle of balsamic glaze, creating a burst of Italian flavors."
+                }
+            ],
+            "coldSandwiches": [
+                {
+                    "name": "Turkey Avocado Wrap",
+                    "ingredients": [
+                        "Sliced turkey",
+                        "Avocado",
+                        "Lettuce",
+                        "Tomato",
+                        "Whole wheat wrap"
+                    ],
+                    "description": "A wholesome wrap filled with tender slices of turkey, creamy avocado, crisp lettuce, and juicy tomatoes, all nestled in a whole wheat wrap for a satisfying, nutritious bite."
+                },
+                {
+                    "name": "Classic Italian Sub",
+                    "ingredients": [
+                        "Ham",
+                        "Salami",
+                        "Provolone",
+                        "Lettuce",
+                        "Tomato",
+                        "Italian dressing",
+                        "Sub roll"
+                    ],
+                    "description": "A classic Italian sub featuring layers of savory ham, zesty salami, provolone cheese, crisp lettuce, and juicy tomatoes, drizzled with Italian dressing and served on a fresh sub roll."
+                },
+                {
+                    "name": "Caprese Sandwich",
+                    "ingredients": [
+                        "Fresh mozzarella",
+                        "Tomato",
+                        "Basil",
+                        "Balsamic glaze",
+                        "Ciabatta"
+                    ],
+                    "description": "A delightful Caprese sandwich showcasing the perfect harmony of fresh mozzarella, ripe tomatoes, and aromatic basil, all drizzled with balsamic glaze and served on soft ciabatta bread."
+                }  
+            ],
+            "hotSandwiches": [
+                {
+                    "name": "Grilled Chicken Panini",
+                    "ingredients": [
+                        "Grilled chicken",
+                        "provolone cheese",
+                        "pesto",
+                        "ciabatta"
+                    ],
+                    "description": "Tender grilled chicken, melted provolone, and a flavorful pesto sauce, all pressed between slices of soft ciabatta bread for a satisfying panini experience."
+                },
+                {
+                    "name": "BBQ Pulled Pork",
+                    "ingredients": [
+                        "Pulled pork",
+                        "barbecue sauce",
+                        "brioche bun"
+                    ],
+                    "description": "Slow-cooked pulled pork tossed in barbecue sauce, piled high on a soft brioche bun for a deliciously messy and flavorful sandwich."
+                },
+                {
+                    "name": "Spicy Buffalo Chicken Melt",
+                    "ingredients": [
+                        "Spicy buffalo chicken",
+                        "pepper jack cheese",
+                        "ranch dressing",
+                        "sourdough"
+                    ], 
+                    "description": "Spicy buffalo chicken, melted pepper jack cheese, and cool ranch dressing sandwiched between slices of toasted sourdough for a perfect balance of heat and creaminess."
+                }  
+            ],
+            "drinks": [
+                {
+                    "name": "Tropical Passion Fruit Smoothie",
+                    "ingredients": [
+                        "Passion fruit",
+                        "pineapple",
+                        "coconut"
+                    ],
+                    "description": "A refreshing blend of tropical flavors with passion fruit, pineapple, and coconut, creating a cool and revitalizing smoothie."
+                },
+                {
+                    "name": "Iced Caramel Macchiato",
+                    "ingredients": [
+                        "Espresso",
+                        "milk",
+                        "vanilla syrup",
+                        "caramel drizzle"
+                    ],
+                    "description": "Espresso and milk over ice, sweetened with vanilla syrup and finished with a drizzle of caramel for a delightful iced coffee experience."
+                },
+                {
+                    "name": "Mint Mojito Lemonade",
+                    "ingredients": [
+                        "Fresh lemonade",
+                        "mint",
+                        "sparkling water"
+                    ],
+                    "description": "Freshly squeezed lemonade with a hint of mint and a splash of sparkling water, creating a refreshing and invigorating beverage."
+                } 
+            ],
+            "desserts": [
+                {
+                    "name": "Decadent Chocolate Mousse",
+                    "ingredients": [
+                        "Chocolate mousse",
+                        "whipped cream",
+                        "cocoa"
+                    ],
+                    "description": "Rich chocolate mousse topped with a dollop of whipped cream and a sprinkle of cocoa for a decadent and indulgent treat."
+                },
+                {
+                    "name": "Homemade Cheesecake",
+                    "ingredients": [
+                        "Cream cheese",
+                        "graham cracker crust",
+                        "fruit topping"
+                    ],
+                    "description": "New York-style cheesecake with a creamy texture, nestled in a buttery graham cracker crust, and topped with your choice of delightful fruit topping."
+                },
+                {
+                    "name": "Warm Apple Pie",
+                    "ingredients": [
+                        "Apple filling",
+                        "flaky crust",
+                        "vanilla ice cream"
+                    ],
+                    "description": "A classic slice of warm apple pie with a flaky crust, served with a scoop of vanilla ice cream for a comforting and homestyle dessert."
+                }  
+            ]
+        } 
+    ]
+}
