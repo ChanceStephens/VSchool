@@ -1,0 +1,144 @@
+/*=========================|Contains: Body of the Web Page|=======================*/
+body{
+    background-image: url(./images/pawPrintBG.jpg);
+    background-size:contain;
+    border: #027373 solid 12px;
+    margin: 0;
+}
+/* ########################|ROOT CONTAINER|####################################### */
+/*=========================|Contains: Content Rendered from App.jsx|==============*/
+#root {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin:1px
+}
+/*=========================|Contains: ALL Individuals|============================*/
+.rootBody {
+
+}
+/* ########################|TITLE CONTAINER|##################################### */
+/*=========================|Contains: Title|======================================*/
+header {
+    width: auto;
+    max-height: 20vh;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border: #027373 double 20px ;
+    background-color:#04D9B2 ;
+    color: #D9A9C3;
+    -webkit-text-stroke:#027373 2px ;
+    text-shadow: 8px 8px #027373;
+}
+/* ########################|FRIEND CONTAINER|#####################################*/
+/*=========================|Contains: Indivdual and their pets|===================*/
+.friendWithPets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/*=========================|Contains: ONLY Individual and thier info|=============*/
+.friend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*=========================|Contains: Individuals Image|==========================*/
+.friend>img {
+    display: flex;
+    border-radius: 15%;
+    border: #027373 double 40px;
+}
+/*=========================|Contains: Owner's info|==============================*/
+.friend>h1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: #027373 double 8px ;
+    background-color:#04D9B2 ;
+    color: #D9A9C3;
+    -webkit-text-stroke:#027373 1px ;
+    text-shadow: 6px 6px #027373;
+    padding: 15px;
+    font-size: 2.5rem;
+    width: 25rem;
+}
+.friend>h1>span {
+    color: #F2594B;
+}
+/*=========================|Contains: Individuals Name|==========================*/
+.friend--name {
+    font-size: 5rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: #027373 double 8px ;
+    background-color:#04D9B2 ;
+    color: #D9A9C3;
+    -webkit-text-stroke:#027373 1px ;
+    text-shadow: 8px 8px #027373;
+    padding: 15px;
+}
+/*=========================|Contains: Individuals Age|===========================*/
+.friend--age {
+    text-align: center;
+}
+/*=========================|Contains: Total Number of Pets|======================*/
+.friend--totalPets {
+
+}
+/* ########################|PET CONTAINER|####################################### */
+/*=========================|Contains: ALL Pets for Individual|====================*/
+.allPets {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/*=========================|Contains: individual pet and their info|==============*/
+.pet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+/*=========================|Contains: Pet's Image|===============================*/
+.pet>img {
+    border: #027373 double 30px;
+    border-radius: 50px;
+    width: 20rem;
+}
+.pet>h1 {
+    display: flex;;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: #027373 double 8px ;
+    background-color:#04D9B2 ;
+    color: #D9A9C3;
+    -webkit-text-stroke:#027373 1px ;
+    text-shadow: 6px 6px #027373;
+    padding: 15px;
+    font-size: 2.5rem;
+    width: 25rem;
+}
+.pet>h1>span {
+    color: #F2594B;
+}
+/*=========================|Contains: Pet's Name|================================*/
+.pet--name {
+
+}
+/*=========================|Contains: Pet's Breed|===============================*/
+.pet--breed {
+
+}
+
+
+
