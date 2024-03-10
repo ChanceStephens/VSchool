@@ -1,0 +1,81 @@
+/*==============================================|BODY|==============================================*/
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;}
+/*==============================================|HEADER|==============================================*/
+.Header {
+  background: linear-gradient(to right, rgba(103, 34, 128, 1),rgba(166, 38, 211, 1));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header--memeGenerator {
+  display: flex;
+  width: 50vw;;
+}
+.Header--memeGenerator>h1 {
+  font-size: 2.4rem;
+}
+.Header--memeGenerator>img {
+  display: flex;
+  flex-direction: row;
+  width: 4rem;
+  height: 4rem;
+  margin:auto 20px auto 50px;
+}
+.Header--reactCourse {
+  width: 50vw;
+  text-align: right;
+  align-content: center;
+}
+.Header--reactCourse>h1 {
+  margin-right: 75px;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.Meme {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.Meme>.memeGeneratorForm {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 50px;
+  width: 60vw;
+  height: 20vh;
+  align-content:center ;  
+}
+#topText {
+  border-radius: 5px;
+  text-indent: 5px;
+  height: 4rem;
+  font-size: 1.8rem;
+}
+#bottomText {
+  text-indent: 5px;
+  border-radius: 5px;
+  height: 4rem;
+  font-size: 1.8rem;
+}
+.memeGeneratorForm>button {
+  background: linear-gradient(to right, rgba(103, 34, 128, 1),rgba(166, 38, 211, 1));
+  border-radius: 5px;
+  grid-column: 1 / -1;
+  height: 4rem;
+  font-size: 1.8rem;
+  color:#ffffff;
+}
+.Meme>img {
+  min-width: 40vw;
+  width: 60vw;
+  border-radius: 8px;
+  height: auto;
+  margin: auto auto;
+
+}
