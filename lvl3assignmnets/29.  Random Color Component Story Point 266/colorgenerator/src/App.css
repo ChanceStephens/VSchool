@@ -1,0 +1,34 @@
+
+
+body {
+  margin: 0; 
+  background-color: black;
+  background-image: linear-gradient(45deg, black, violet, black, indigo, black, blue, black, green, black, yellow, black, orange, black, red, black, orange, black, yellow, black, green, black, blue, black, indigo, black, violet, black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 100vh;
+  color: black;
+  text-align: center;
+}
+
+.box {
+  width: 75vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  border: 10px double black
+}
+button {
+  width: 400px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+}
+

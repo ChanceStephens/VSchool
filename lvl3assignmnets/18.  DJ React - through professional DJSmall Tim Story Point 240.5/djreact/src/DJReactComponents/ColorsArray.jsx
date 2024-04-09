@@ -58,6 +58,7 @@ const ColorsArray =() => {
         "#400101",
         "#8C0303",
         "#F27405",
+        "black",
         "#F2AEE0"
     ]
 

@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+#root {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33vh;
+    border: 10px solid;
+    border-image: linear-gradient(to right, black, white, black, white, black, white, black, white, black) 1;
+    border-radius: 40px;
+    margin-bottom: 3px;
+}
+.textInputs {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 5px;
+}
+.textInputs>input {
+    width: 20rem;
+    height: 2rem;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+textarea {
+    display: flex;
+    width: 42.6rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+button {
+    width: 10rem;
+    height: 4rem;
+    margin: 10px;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.badgeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+
+    border-image: linear-gradient(to right, black, white, black, white, black, white, black, white, black) 1;
+    margin-top: 3px;
+}
+.badge {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: auto;
+    background-color:silver;
+
+}
+.badgeHeader {
+    display: flex;
+    justify-content:center;
+    font-size: 2rem;
+    margin-top: 0;
+    width: 100%;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 1);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+
+.blue {
+    background-color:rgba(19, 195, 226, 0.692);
+}
+.red {
+    background-color:rgba(255, 0, 242, 0.692);
+}
+.badgeInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 5px double black;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 1);
+    padding: 10px;
+    font-size: 1.5rem;
+    color:rgb(2, 31, 199)
+}
+.name {
+    display: flex;
+    min-width: 40%;
+    margin-left: 20px;
+
+}
+.phoneNumber {
+    display: flex;
+    flex-direction: row;
+    min-width: 40%;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    min-width: 40%;
+    margin-left: 20px;
+
+}
+
+.birthPlace {
+    display: flex;
+    flex-direction: row;
+    min-width: 40%;
+
+}
+.favoriteFood {
+    display: flex;
+    flex-direction: row;
+    min-width: 40%;
+    margin-left: 20px;
+
+}
+
+.aboutSelf{
+    display: flex;
+    justify-content: center;
+    min-width: 95%;
+    height: 10rem;
+
+}
+
+span {
+    color: black;
+    font-size: 1.5rem;
+    font-weight:900;
+}
+p{
+    display: flex;
+    flex-direction: row;
+}
