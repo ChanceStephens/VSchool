@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+
+}
+
+/* DARK SETTINGS */
+
+.dark-navBar {
+    color: white;
+    background-color: black;
+}
+.dark-main {
+    color: white;
+    background-color: black;
+}
+.dark-footer {
+    color: white;
+    background-color: black;
+}
+.dark-select {
+    color: white;
+    background-color: black;
+}
+
+
+/* LIGHT SETTINGS */
+.light-navBar {
+    color: black;
+    background-color: white;
+}
+.light-main {
+    color: black;
+    background-color: white;
+}
+.light-footer {
+    color: black;
+    background-color: white;
+}
+.light-select {
+    color: black;
+    background-color: white;
+}
+
+/* VERTICAL SETTINGS */
+.vertical-navBar {
+    display: flex;
+}
+.vertical-main {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+
+}
+.vertical-footer {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+
+/* HORIZONTAL SETTINGS */
+.horizontal-navBar {
+    grid-column: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    border: deeppink ridge 5px;
+}
+.horizontal-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    border: deeppink ridge 5px;
+}
+.horizontal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    border: deeppink ridge 5px;
+
+}
+
+h1 {
+    border: deeppink ridge 5px;
+    padding: 25px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: deeppink ridge 5px;
+    height: 100px
+}
+
+form>label, form>select {
+    font-size: 1.5em;
+    margin: 5px
+}
+
