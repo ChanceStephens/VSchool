@@ -1,0 +1,359 @@
+body {
+    margin:0;
+}
+/* ========================|NAV BAR|======================== */
+nav {
+    background-image: url('https://i.pinimg.com/originals/9d/d3/ae/9dd3ae6b880d14147ef60d66a5d494c1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:99%;
+    height: 200px;
+    border: darkgreen groove 12px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 56px;
+  }
+button{
+  width: 218px;
+  height: 142px;
+  font-size: 36px;
+  background-image: url('./Images/1000_F_2471247_KLjS7MNtlm9tumAf3vIphDjc7MWXYZ.jpg');
+  background-position: center;
+  background-size:auto;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  
+}
+/* ========================|TEAM CONTAINER|======================== */
+.teamContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+/* ========================|LOGO CONTAINER|======================== */
+
+.logoContainer {
+    width: 100%;
+    height: 99vh;
+    position: relative; /* Change from fixed to relative */
+    overflow: auto; /* Add overflow to allow scrolling */
+    background-attachment: fixed;
+}
+
+.pageTitle {
+    font-size: 12rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+/* ========================|IMAGE CONTAINER|======================== */
+.imageContainer {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+}
+.imageContainer>img {
+    width: 1000px;
+    height: auto;
+    border-radius: 20px;
+}
+.imageContainer>.sideImage {
+    width: 300px;
+    height: 300px;
+}
+/* ========================|IMAGE CONTAINER|======================== */
+
+.homePage {
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin:0;
+  background-image: url("https://assets.turbologo.com/blog/en/2019/12/19084827/NFL-logo-cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative; /* Change from fixed to relative */
+  overflow: auto; /* Add overflow to allow scrolling */
+  background-attachment: fixed;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: red ridge 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, .6);
+  border-radius: 45px;
+  padding: 3px;
+  padding-left: 10px;
+}
+.greeting>h1 {
+  font-size: 5em;
+  color: red; /* Text color */
+text-shadow: 
+  -1px -1px 0 white,  
+   1px -1px 0 white,
+  -1px  1px 0 blue,
+   1px  1px 0 black;
+}
+
+.greeting>p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.homePage>img {
+  border-radius: 30px;
+}
+
+
+.stadiumList {
+  border: red ridge 8px;
+  padding: 16px;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: red; /* Text color */
+text-shadow: 
+  -1px -1px 0 black,  
+   1px -1px 0 black,
+  -1px  1px 0 white,
+   1px  1px 0 white;
+
+  width: 75%;
+  border-radius: 45px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.stadium {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: start;
+  align-items: center;
+  text-wrap: wrap;
+}
+
+.stadium>h1{
+  font-size: 32px;
+  margin:8px;
+}
+a{
+color: red;
+text-shadow: 
+  -1px -1px 0 white,  
+   1px -1px 0 white,
+  -1px  1px 0 blue,
+   1px  1px 0 black;
+text-decoration: underline  solid blue;
+}
+a:hover{
+  color:blue;
+  text-decoration: underline solid red;
+}
+
+.jumpTo {
+  color: red;
+text-shadow: 
+  -1px -1px 0 white,  
+   1px -1px 0 white,
+  -1px  1px 0 blue,
+   1px  1px 0 black;
+text-decoration: underline  solid blue;
+}
+
+.jumpToContainer {
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: red ridge 4px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 28px;
+}
+
+
+.teamLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 36px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.atlanta-falcons {
+
+  }
+  
+  .arizona-cardinals {
+    /* Arizona Cardinals CSS styles go here */
+  }
+  
+  .baltimore-ravens {
+    /* Baltimore Ravens CSS styles go here */
+  }
+  
+  .buffalo-bills {
+    /* Buffalo Bills CSS styles go here */
+  }
+  
+  .carolina-panthers {
+    /* Carolina Panthers CSS styles go here */
+  }
+  
+  .chicago-bears {
+    /* Chicago Bears CSS styles go here */
+  }
+  
+  .cincinnati-bengals {
+    /* Cincinnati Bengals CSS styles go here */
+  }
+  
+  .cleveland-browns {
+    /* Cleveland Browns CSS styles go here */
+  }
+  
+  .dallas-cowboys {
+    /* Dallas Cowboys CSS styles go here */
+  }
+  
+  .denver-broncos {
+    /* Denver Broncos CSS styles go here */
+  }
+  
+  .detroit-lions {
+    /* Detroit Lions CSS styles go here */
+  }
+  
+  .green-bay-packers {
+    /* Green Bay Packers CSS styles go here */
+  }
+  
+  .houston-texans {
+    /* Houston Texans CSS styles go here */
+  }
+  
+  .indianapolis-colts {
+    /* Indianapolis Colts CSS styles go here */
+  }
+  
+  .jacksonville-jaguars {
+    /* Jacksonville Jaguars CSS styles go here */
+  }
+  
+  .kansas-city-chiefs {
+    /* Kansas City Chiefs CSS styles go here */
+  }
+  
+  .las-vegas-raiders {
+    /* Las Vegas Raiders CSS styles go here */
+  }
+  
+  .los-angeles-chargers {
+    /* Los Angeles Chargers CSS styles go here */
+  }
+  
+  .los-angeles-rams {
+    /* Los Angeles Rams CSS styles go here */
+  }
+  
+  .miami-dolphins {
+    /* Miami Dolphins CSS styles go here */
+  }
+  
+  .minnesota-vikings {
+    /* Minnesota Vikings CSS styles go here */
+  }
+  
+  .new-england-patriots {
+    /* New England Patriots CSS styles go here */
+  }
+  
+  .new-orleans-saints {
+    /* New Orleans Saints CSS styles go here */
+  }
+  
+  .new-york-giants {
+    /* New York Giants CSS styles go here */
+  }
+  
+  .new-york-jets {
+    /* New York Jets CSS styles go here */
+  }
+  
+  .philadelphia-eagles {
+    /* Philadelphia Eagles CSS styles go here */
+  }
+  
+  .pittsburgh-steelers {
+    /* Pittsburgh Steelers CSS styles go here */
+  }
+  
+  .san-francisco-49ers {
+    /* San Francisco 49ers CSS styles go here */
+  }
+  
+  .seattle-seahawks {
+    /* Seattle Seahawks CSS styles go here */
+  }
+  
+  .tampa-bay-buccaneers {
+    /* Tampa Bay Buccaneers CSS styles go here */
+  }
+  
+  .tennessee-titans {
+    /* Tennessee Titans CSS styles go here */
+  }
+  
+  .washington-football-team {
+    /* Washington Football Team CSS styles go here */
+  }
+  

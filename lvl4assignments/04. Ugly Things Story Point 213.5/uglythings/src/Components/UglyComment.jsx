@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-export default function UglyComment({ content, user, timestamp }) {
+export default function UglyComment({ content }) {
     return (
         <div>
-
             <p>Comment: {content}</p>
-
         </div>
     );
 }

@@ -28,6 +28,7 @@ export default function UglyForm() {
 
     return (
         <form>
+            <h1>Image URL:</h1>
             <input
                 type='text'
                 name='imgUrl'
@@ -36,6 +37,7 @@ export default function UglyForm() {
                 placeholder='Image url'
                 className='imageInput'
             />
+            <h1>Title:</h1>
             <input
                 type='text'
                 name='title'
@@ -44,6 +46,7 @@ export default function UglyForm() {
                 placeholder='Title'
                 className='titleInput'
             />
+            <h1>Description:</h1>
             <input
                 type='text'
                 name='description'

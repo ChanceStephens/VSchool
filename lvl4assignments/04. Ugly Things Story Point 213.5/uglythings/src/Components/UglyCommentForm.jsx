@@ -1,4 +1,3 @@
-// UglyCommentForm.js
 import React, { useState } from 'react';
 
 export default function UglyCommentForm({ onSubmit }) {
@@ -9,11 +8,8 @@ export default function UglyCommentForm({ onSubmit }) {
     };
 
     const handleSubmit = () => {
-        // Perform any logic you need here, such as sending the comment to the server
         onSubmit(comment); // Pass the comment to the onSubmit function
-
-        // Clear the comment field after submission
-        setComment('');
+        setComment('');// Clear the comment field after submission
     };
 
     return (

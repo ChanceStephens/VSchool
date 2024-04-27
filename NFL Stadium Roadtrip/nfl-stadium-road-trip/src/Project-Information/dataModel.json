@@ -1,0 +1,406 @@
+{
+    "team": {
+        "id": "1",
+        "uid": "s:20~l:28~t:1",
+        "slug": "atlanta-falcons",
+        "location": "Atlanta",
+        "name": "Falcons",
+        "nickname": "Falcons",
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "shortDisplayName": "Falcons",
+        "color": "a71930",
+        "alternateColor": "000000",
+        "isActive": true,
+        "logos": [
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+                "width": 500,
+                "height": 500,
+                "alt": "",
+                "rel": [
+                    "full",
+                    "default"
+                ],
+                "lastUpdated": "2018-06-05T12:11Z"
+            },
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+                "width": 500,
+                "height": 500,
+                "alt": "",
+                "rel": [
+                    "full",
+                    "dark"
+                ],
+                "lastUpdated": "2018-06-05T12:11Z"
+            },
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+                "width": 500,
+                "height": 500,
+                "alt": "",
+                "rel": [
+                    "full",
+                    "scoreboard"
+                ],
+                "lastUpdated": "2018-06-05T12:11Z"
+            },
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+                "width": 500,
+                "height": 500,
+                "alt": "",
+                "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                ],
+                "lastUpdated": "2018-06-05T12:11Z"
+            }
+        ],
+        "record": {
+            "items": [
+                {
+                    "type": "total",
+                    "summary": "7-10",
+                    "stats": [
+                        {
+                            "name": "OTLosses",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "OTWins",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "avgPointsAgainst",
+                            "value": 21.941177
+                        },
+                        {
+                            "name": "avgPointsFor",
+                            "value": 18.882353
+                        },
+                        {
+                            "name": "clincher",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "differential",
+                            "value": -52.0
+                        },
+                        {
+                            "name": "divisionWinPercent",
+                            "value": 0.5
+                        },
+                        {
+                            "name": "gamesBehind",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "gamesPlayed",
+                            "value": 17.0
+                        },
+                        {
+                            "name": "leagueWinPercent",
+                            "value": 0.33333334
+                        },
+                        {
+                            "name": "losses",
+                            "value": 10.0
+                        },
+                        {
+                            "name": "playoffSeed",
+                            "value": 12.0
+                        },
+                        {
+                            "name": "pointDifferential",
+                            "value": -52.0
+                        },
+                        {
+                            "name": "points",
+                            "value": -1.5
+                        },
+                        {
+                            "name": "pointsAgainst",
+                            "value": 373.0
+                        },
+                        {
+                            "name": "pointsFor",
+                            "value": 321.0
+                        },
+                        {
+                            "name": "streak",
+                            "value": -2.0
+                        },
+                        {
+                            "name": "ties",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "winPercent",
+                            "value": 0.4117647
+                        },
+                        {
+                            "name": "wins",
+                            "value": 7.0
+                        },
+                        {
+                            "name": "divisionLosses",
+                            "value": 3.0
+                        },
+                        {
+                            "name": "divisionRecord",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "divisionTies",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "divisionWins",
+                            "value": 3.0
+                        }
+                    ]
+                },
+                {
+                    "description": "Home Record",
+                    "type": "home",
+                    "summary": "5-3",
+                    "stats": [
+                        {
+                            "name": "wins",
+                            "value": 5.0
+                        },
+                        {
+                            "name": "losses",
+                            "value": 3.0
+                        },
+                        {
+                            "name": "ties",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "winPercent",
+                            "value": 0.625
+                        },
+                        {
+                            "name": "OTLosses",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "description": "Away Record",
+                    "type": "road",
+                    "summary": "2-7",
+                    "stats": [
+                        {
+                            "name": "wins",
+                            "value": 2.0
+                        },
+                        {
+                            "name": "losses",
+                            "value": 7.0
+                        },
+                        {
+                            "name": "ties",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "winPercent",
+                            "value": 0.2222222238779068
+                        },
+                        {
+                            "name": "OTLosses",
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        "groups": {
+            "id": "11",
+            "parent": {
+                "id": "7"
+            },
+            "isConference": false
+        },
+        "links": [
+            {
+                "language": "en-US",
+                "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+                "text": "Clubhouse",
+                "shortText": "Clubhouse",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                ],
+                "href": "http://www.espn.com/nfl/team/roster/_/name/atl/atlanta-falcons",
+                "text": "Roster",
+                "shortText": "Roster",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                ],
+                "href": "http://www.espn.com/nfl/team/stats/_/name/atl/atlanta-falcons",
+                "text": "Statistics",
+                "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+                "text": "Schedule",
+                "shortText": "Schedule",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/team/photos/_/name/atl",
+                "text": "photos",
+                "shortText": "photos",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.vividseats.com/atlanta-falcons-tickets--sports-nfl-football/performer/51?wsUser=717",
+                "text": "Tickets",
+                "shortText": "Tickets",
+                "isExternal": true,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "draftpicks",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/draft/teams/_/name/atl/atlanta-falcons",
+                "text": "Draft Picks",
+                "shortText": "Draft Picks",
+                "isExternal": false,
+                "isPremium": true
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/team/transactions/_/name/atl",
+                "text": "Transactions",
+                "shortText": "Transactions",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/team/injuries/_/name/atl",
+                "text": "Injuries",
+                "shortText": "Injuries",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                ],
+                "href": "https://www.espn.com/nfl/team/depth/_/name/atl",
+                "text": "Depth Chart",
+                "shortText": "Depth Chart",
+                "isExternal": false,
+                "isPremium": false
+            }
+        ],
+        "franchise": {
+            "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/franchises/1?lang=en&region=us",
+            "id": "1",
+            "uid": "s:20~l:28~f:1",
+            "slug": "atlanta-falcons",
+            "location": "Atlanta",
+            "name": "Falcons",
+            "nickname": "Falcons",
+            "abbreviation": "ATL",
+            "displayName": "Atlanta Falcons",
+            "shortDisplayName": "Falcons",
+            "color": "a71930",
+            "isActive": true,
+            "venue": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/venues/5348?lang=en&region=us",
+                "id": "5348",
+                "fullName": "Mercedes-Benz Stadium",
+                "address": {
+                    "city": "Atlanta",
+                    "state": "GA",
+                    "zipCode": "30313"
+                },
+                "grass": false,
+                "indoor": true,
+                "images": [
+                    {
+                        "href": "https://a.espncdn.com/i/venues/nfl/day/interior/5348.jpg",
+                        "width": 2000,
+                        "height": 1125,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "day",
+                            "interior"
+                        ]
+                    }
+                ]
+            },
+            "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2023/teams/1?lang=en&region=us"
+            }
+        },
+        "nextEvent": [],
+        "standingSummary": "3rd in NFC South"
+    }
+}

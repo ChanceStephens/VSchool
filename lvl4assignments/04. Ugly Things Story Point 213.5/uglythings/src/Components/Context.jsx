@@ -12,9 +12,9 @@ import axios from 'axios'
   E. [x] Must be able to delete an ugly thing
   F. [x] Must be able to edit an ugly thing
   G. [x] Must make all requests via the [Ugly Things API](https://coursework.vschool.io/ugly-things-api-documentation/)
-  H. [] Have 3 images horizontally on each row
-  I. [] Allow each image to have one or more user-submitted comments
-  J. [] Allow the ability to delete specific comments
+  H. [x] Have 3 images horizontally on each row
+  I. [x] Allow each image to have one or more user-submitted comments
+  J. [x] Allow the ability to delete specific comments
 */
 
 export const UglyThingsContext = createContext()

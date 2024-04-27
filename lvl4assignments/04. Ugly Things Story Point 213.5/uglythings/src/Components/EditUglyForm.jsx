@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function EditUglyForm({ initialFormData, onSave, handleChange }) {
-    const { id, imgUrl, title, description } = initialFormData;
+    const { imgUrl, title, description } = initialFormData;
 
     return (
         <form>

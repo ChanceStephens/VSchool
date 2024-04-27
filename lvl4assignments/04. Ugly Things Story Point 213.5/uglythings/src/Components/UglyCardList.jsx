@@ -1,12 +1,12 @@
-import React, { useContext } from 'react';
-import { UglyThingsContext } from './Context';
-import UglyCard from './UglyCard'; // Adjust the path as needed
+import React, { useContext } from 'react'
+import { UglyThingsContext } from './Context'
+import UglyCard from './UglyCard' 
 
 export default function UglyCardList() {
-    const { uglyCards } = useContext(UglyThingsContext);
+    const { uglyCards } = useContext(UglyThingsContext)
 
     return (
-        <div className="ugly-card-list">
+        <div className="uglyCardList">
             {uglyCards.map((card) => (
                 <UglyCard
                     key={card._id}
@@ -17,5 +17,5 @@ export default function UglyCardList() {
                 />
             ))}
         </div>
-    );
+    )
 }
