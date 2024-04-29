@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+body {
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/star-wars-celebration-japan-2025-key-art_article-featur_c1a0cb21.jpeg?region=0,0,1600,900&width=768');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Keep the background fixed */
+}
+
+h1, h2 {
+    margin: 5px;
+    color:white;
+}
+
+p{
+    margin: 5px;
+}
+
+.bounty-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
+}
+
+.bounty {
+    border: darkred ridge 8px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(12, 12, 12, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: left; 
+    
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: darkred ridge 8px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(12, 12, 12, 0.5);
+
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid O#333;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100px;
+    
+}
+
+.delete-btn {
+    background-color: firebrick;
+    color: whitesmoke;
+    width: 100px;
+}
+    
+.edit-btn {
+    background-color: firebrick;
+    color: whitesmoke  
+}
+  
