@@ -85,3 +85,20 @@
 - Begins with the "?"
 - Built of key=value pairs
 - Multiple queries separated by the "&"
+
+
+#####   Status Codes
+
+#   200 - Successful Request
+#   201 - Successful Insert/ Successful update
+#   401 - Unauthorized
+#   404 - Not Found
+#   500 - Server Error
+
+-  https://http.cat
+
+##### Mongoose Schemas
+*   Blueprints for our data
+##### Mongoose Models
+*   Models have a Name, and a Blueprint (Schema)
+*   Models are used to perform the CRUD operations on data created with the Model

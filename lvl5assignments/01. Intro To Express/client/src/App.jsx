@@ -29,7 +29,7 @@ function App() {
   function getMovies() {
     axios.get("/api/movies")
       .then(res => setMovies(res.data))
-      .catch(err => console.log(err))
+      .catch(err => console.log(err.response.data.errMsg))
   }
 
   // Step 5: Define function to add a new movie
@@ -62,6 +62,14 @@ function App() {
       .catch(err => console.log(err))
   }
 
+  function handleFilter(e) {
+    if(e.target.value === "reset"){
+      getMovies()
+    } else {
+    axios.get(`/api/movies/search/genre?genre=${e.target.value}`)
+    .then(res => setMovies(res.data))
+    .catch(err => console.log(err))
+  }}
   // Step 8: Fetch movies when component mounts
   //    1. Fetch movies when the component mounts
   useEffect(() => {
@@ -78,6 +86,13 @@ function App() {
           submit={addMovie}
           btnText="Add Movie"
         />
+        <h4>Filter by Genre</h4>
+        <select onChange={handleFilter} className="filter-form">
+          <option value="reset">All Movies</option>
+          <option value="action">Action</option>
+          <option value="fantasy">Fantasy</option>
+          <option value="horror">Horror</option>
+        </select>
         {/* 2. Render each Movie component */}
         {movies.map(movie => 
           <Movie 
