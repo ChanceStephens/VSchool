@@ -19,6 +19,7 @@ function App() {
 function addBounty(newBounty){
   axios.post('/api/bounties', newBounty)
   .then(res => {
+    console.log(res.data)
     setBounties(prevBounties => [...prevBounties, res.data])
   })
   .catch(err => console.log(err))

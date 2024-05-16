@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 
 export default function AddBountyForm(props) {
-    const {firstName, lastName, living, bountyAmount, type, _id} = props
+    const { firstName, lastName, living, bountyAmount, type, _id, editToggle } = props
     const initialInputs = 
     {
-        _id: _id || "",
         firstName: firstName || "",
         lastName: lastName || "",
         living: living || "",
@@ -25,6 +24,7 @@ export default function AddBountyForm(props) {
         console.log(props._id)
         console.log(inputs)//<====================
         setInputs(inputs, _id)
+        editToggle && editToggle()
     }
 
     // function handleSubmit(event) {

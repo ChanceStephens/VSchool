@@ -1,0 +1,414 @@
+/* ========================|BODY|========================== */
+body {
+    margin: 0;
+    background-color: black;
+    color: aqua;
+    background-image: url(./images/stars4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    background-attachment: fixed;
+}
+/* ======================================================== */
+/* ========================|BODY|========================== */
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* ======================================================== */
+/* =======================|APP.JSX|======================== */
+
+/* ======================================================== */
+/* =======================|NAVIGATION LINKS|=============== */
+a {
+    color:aqua;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+a:hover {
+    color:deeppink;
+}
+/* ======================================================== */
+/* ==================|DAILY TARGET FORM|=================== */
+.dailyTargetForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    font-size: 2rem;
+    padding: 10px;
+    text-shadow:  2px 2px 8px deeppink, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000;
+}
+.dailyTargetForm>button {
+    width: 220px;
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin:5px;
+    color:aqua;
+    border: deeppink 3px ridge;
+    background-color:rgba(0, 0, 0, .5) ;
+    text-shadow:  2px 2px 8px deeppink, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000; 
+    z-index: 1000;
+
+}
+.labelWithInput {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    z-index:1000;
+}
+.dailyTargetForm>label{
+    margin-right: 15px;
+}
+.labelWithInput>input {
+    width: 250px;
+    height: 75px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin:10px;
+    color:aqua;
+    border: deeppink 3px ridge;
+    background-color:rgba(0, 0, 0, .3) ;
+    text-shadow:  2px 2px 8px deeppink, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000;
+
+}
+/* ======================================================== */
+/* ====================|STUDENT GOAL|====================== */
+.studentGoal{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.studentGoal>button{
+    width: 220px;
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin:5px;
+    color:aqua;
+    border: deeppink 8px ridge;
+    background-color:black;
+}
+.studentGoal>h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    margin:10px;
+}
+.studentGoal>h1>span{
+    color:deeppink;
+}
+/* ======================================================== */
+/* ====================|POINT TRACKER FORM|================ */
+.pointTrackerInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+.pointTrackerInput>.labelWithInput>button {
+    width: 220px;
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    color:aqua;
+    border: deeppink 8px ridge;
+    background-color:black;
+    margin:5px;
+}
+.pointTrackerInput>.labelWithInput {
+    display: flex;
+    flex-direction: column;
+}
+/* ======================================================== */
+/* ====================|POINT TRACKER LIST|================ */
+.pointTrackerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ======================================================== */
+/* ====================|POINT TRACKER ITEM|================ */
+
+/* ======================================================== */
+/* ====================|USER DATA ITEM|==================== */
+.dataItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
+.dataItem>button {
+    width: 220px;
+    height: 4rem;
+    font-size: 1.4rem;
+    margin-right: 100px;
+    margin-left: -100px;
+    border-radius: 10px;
+    
+    
+}
+/* ======================================================== */
+/* ====================|USER DATA LIST|==================== */
+.userDataList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dataItem>button {
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+/* ======================================================== */
+/* ========================|NAVBAR|======================== */
+.navBar {
+width: 100vw;
+
+}
+.navBar-links {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 255, 255, .8),  rgba(0, 255, 255, .8), rgba(255, 20, 147, .8), rgba(255, 20, 147, .8),  rgba(0, 0, 0));
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    width: 100%;
+    margin: 3px 0 10px 0;
+    padding: 5px;
+    background-color: black;
+}
+.link {
+    text-shadow:  2px 2px 8px deeppink, 2px 2px 8px #000000, 2px 2px 8px deeppink;
+    z-index: 1000;
+}
+.navBar-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    border-bottom: black ridge 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 255, 255, .8),  rgba(0, 255, 255, .8), rgba(255, 20, 147, .8), rgba(255, 20, 147, .8),  rgba(0, 0, 0));
+
+}
+.vschool-container {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.vschool {
+    width: 400px;
+    margin-left: 50px;
+    opacity:1;
+}
+.navBar-standUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 10px 0px 10px 0px;
+    text-shadow:  2px 2px 8px  black, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000;
+}
+.navBar-standUp>img {
+    width: 100px;
+    margin: 20px;
+    opacity:1;
+}
+.navBar-standUp>a {
+    font-size: 2rem;
+    margin: 20px;
+    text-shadow:  2px 2px 8px black, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000;
+}
+.light{
+    width: 500px;
+    position: relative;
+    opacity:.7;
+}
+/* ======================================================== */
+/* ======================|DAILY DOSE|====================== */
+.dailyDose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    position:relative;
+}
+.dailyDose-border>img {
+    width: 900px;
+}
+.dailyDose-border {
+    position:relative;
+}
+.dailyDose-items {
+    width: 675px;
+    height: 575px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .7);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px 10px rgb(255, 20, 147, .8);
+    outline: 2px solid rgb(255, 20, 147, .8);
+    text-shadow:  2px 2px 8px deeppink, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000;
+}
+.dailyDose-title {
+    padding-bottom: 15px;
+    border-bottom: 2px solid transparent; 
+    background-image: linear-gradient(to right,black, aqua, aqua,  aqua, deeppink, deeppink, deeppink, black); 
+    background-position: bottom; 
+    background-size: 75% 3px;  
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    
+}
+.dailyDose-components{
+    display:flex;
+    flex-direction: column;
+    margin: 15px;
+    /* justify-content: space-evenly;
+    align-items: center; */
+}
+.title {
+    font-size: 1.75rem;
+    margin-top: 0;
+}
+.writing {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+/* ======================================================== */
+/* ====================|JOKES|============================= */
+.randomJoke {
+    border-bottom: 2px solid transparent; 
+    background-image: linear-gradient(to right,black, aqua, aqua,  aqua, deeppink, deeppink, deeppink, black); 
+    background-position: bottom; 
+    background-size: 75% 3px; 
+    background-repeat: no-repeat;
+}
+/* ======================================================== */
+/* =====================|RANDOM QUOTE|===================== */
+.randomQuote>.title {
+    margin-top: 15px;
+}
+/* ======================================================== */
+/* ====================|LIFE ADVICE|======================= */
+.slip {
+    border-bottom: 2px solid transparent; 
+    background-image: linear-gradient(to right,black, aqua, aqua,  aqua, deeppink, deeppink, deeppink, black); 
+    background-position: bottom; 
+    background-size: 75% 3px; 
+    background-repeat: no-repeat;
+}
+.slip>.title {
+    margin-top: 15px;
+}
+/* ======================================================== */
+/* ====================|ABOUT|============================= */
+.about{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.about-welcome {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+    justify-self: start;
+    align-self: start;
+    padding: 20px 50px 50px 50px;
+    text-shadow:  2px 2px 8px deeppink, 2px 2px 8px #000000, 2px 2px 8px deeppink, 2px 2px 8px #000000;
+    font-size: 1.1rem;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px 6px rgb(255, 20, 147, .8);
+    outline: 2px ridge rgb(255, 20, 147, .8);
+    margin-top: 25px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, .7);
+    background-image: url('./images/lines3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+img {
+    width: 800px;
+    opacity: .5;
+    position: sticky;
+}
+/* ======================================================== */
+/* ====================||================================== */
+/* ======================================================== */
+/* ====================|TEST|================================== */
+.test-containers-container {
+    border: deeppink 8px ridge;
+    display:flex;
+    flex-direction: column;
+}
+.test-container {
+    border: aqua 8px ridge;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.test-titles {
+    border: chartreuse 8px ridge;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(255, 20, 147, .4);
+
+}
+.test-titles>h1 {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+.test-titles>h2 {
+    width: 100%;
+    text-align: right;
+}
+
+
+
+
+
+/* ======================================================== */

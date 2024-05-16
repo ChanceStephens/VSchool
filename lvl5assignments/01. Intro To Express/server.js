@@ -6,7 +6,7 @@
 //      2. Install Nodemon                                                      
 //          a. npm install -g nodemon   
 //      3. Install Morgan                                                      
-//          a. npm install morgain
+//          a. npm install morgan
 //      4. Install Mongoose
 //          a. npm install mongoose
 //      5. Confirm package.json has these Dependancies 
@@ -17,6 +17,8 @@
 //          b. cd client
 //          c. npm install
 //          d. (See Connect Frontend to Backend Below)
+//      2. Install Axios
+//          a. npm install axios
 //==============================================================================//
 /*=================================|NODEMON|====================================//
 // Installing Nodemon [IN TERMINAL] npm install -g nodemon                      // Setting up nodemon will streamline the process of updating the server instantaniously
@@ -81,7 +83,7 @@ const mongoose = require('mongoose')
 //=================================|CONNECT DATABASE|===========================//
 const connectToDb = async () => {                                               // Looks for a request body, and turns it into 'req.body
     try {
-        await mongoose.connect("mongodb+srv://chancestephens2022:"/*PASSWORD HERE*/"@cluster0.i6anwre.mongodb.net/")   
+        await mongoose.connect("mongodb+srv://chancestephens2022:"/*PASSWORD HERE*/npm "@cluster0.i6anwre.mongodb.net/")   
         console.log("Connected to the MongoDB")
        } catch (error) {
            console.log(error)

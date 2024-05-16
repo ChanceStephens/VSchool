@@ -9,7 +9,7 @@ const bountySchema = new Schema({
         } ,
         lastName:{
             type: String,
-            required: false,
+            required: false, //false by default
 
         },
         living:{
@@ -25,9 +25,13 @@ const bountySchema = new Schema({
         },
         type:{
             type: String,
-            enum: ["sith", "jedi"],
+            enum: ["sith", "jedi", "Jedi", "Sith"],
             required: true,
 
         }
+        // datePosted:{
+        //     type: Date,
+        //     default: Date.now
+        // }
 })
-module.exports = mongoose.model("Bounty", bountySchema)
+module.exports = mongoose.model("Bounty", bountySchema)// Bounty kdkdkdfkd

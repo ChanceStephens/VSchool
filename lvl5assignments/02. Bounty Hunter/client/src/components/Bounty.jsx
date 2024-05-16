@@ -5,6 +5,10 @@ export default function Bounty(props) {
     
     const {_id, firstName, lastName, living, bountyAmount, type} = props
     const [editToggle, setEditToggle] = useState(false)
+
+    function handleToggle() {
+        setEditToggle(!editToggle)
+    }
     return (
             <div
                 className="bounty" 
@@ -34,7 +38,7 @@ export default function Bounty(props) {
                         type={type}
                         btnText="Update Bounty Information"
                         submit={props.editBounty}
-                        
+                        editToggle={handleToggle}
                         />
                     <button 
                         onClick={() => setEditToggle(prevToggle => !prevToggle)}>

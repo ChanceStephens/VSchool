@@ -3,85 +3,85 @@ const bountyRouter = express.Router()
 const Bounty = require('../model/bountyModel')
 
 
- const bounties = [
-    {
-        firstName: 'Darth',
-        lastName: 'Maul',
-        living: false,
-        bountyAmount: 1000000,
-        type: 'Sith'
-    },
-    {
-        firstName: 'Luke',
-        lastName: 'Skywalker',
-        living: true,
-        bountyAmount: 500000,
-        type: 'Jedi'
-    },
-    {
-        firstName: 'Count',
-        lastName: 'Dooku',
-        living: false,
-        bountyAmount: 750000,
-        type: 'Sith'
-    },
-    {
-        firstName: 'Obi-Wan',
-        lastName: 'Kenobi',
-        living: false,
-        bountyAmount: 800000,
-        type: 'Jedi'
-    },
-    {
-        firstName: 'Kylo',
-        lastName: 'Ren',
-        living: false,
-        bountyAmount: 900000,
-        type: 'Sith'
-    },
-    {
-        firstName: 'Rey',
-        lastName: 'Skywalker',
-        living: true,
-        bountyAmount: 600000,
-        type: 'Jedi'
-    },
-    {
-        firstName: 'Palpatine',
-        lastName: 'Unknown',
-        living: true,
-        bountyAmount: 2000000,
-        type: 'Sith'
-    },
-    {
-        firstName: 'Yoda',
-        lastName: 'Unknown',
-        living: false,
-        bountyAmount: 1000000,
-        type: 'Jedi'
-    },
-    {
-        firstName: 'Darth',
-        lastName: 'Bane',
-        living: true,
-        bountyAmount: 3000000,
-        type: 'Sith'
-    },
-    {
-        firstName: 'Anakin',
-        lastName: 'Skywalker',
-        living: false,
-        bountyAmount: 1500000,
-        type: 'Sith'
-    },
-    {
-        firstName: 'Ahsoka',
-        lastName: 'Tano',
-        living: true,
-        bountyAmount:750000,
-        type: 'Jedi'
-    }
-];
+//  const bounties = [
+//     {
+//         firstName: 'Darth',
+//         lastName: 'Maul',
+//         living: false,
+//         bountyAmount: 1000000,
+//         type: 'Sith'
+//     },
+//     {
+//         firstName: 'Luke',
+//         lastName: 'Skywalker',
+//         living: true,
+//         bountyAmount: 500000,
+//         type: 'Jedi'
+//     },
+//     {
+//         firstName: 'Count',
+//         lastName: 'Dooku',
+//         living: false,
+//         bountyAmount: 750000,
+//         type: 'Sith'
+//     },
+//     {
+//         firstName: 'Obi-Wan',
+//         lastName: 'Kenobi',
+//         living: false,
+//         bountyAmount: 800000,
+//         type: 'Jedi'
+//     },
+//     {
+//         firstName: 'Kylo',
+//         lastName: 'Ren',
+//         living: false,
+//         bountyAmount: 900000,
+//         type: 'Sith'
+//     },
+//     {
+//         firstName: 'Rey',
+//         lastName: 'Skywalker',
+//         living: true,
+//         bountyAmount: 600000,
+//         type: 'Jedi'
+//     },
+//     {
+//         firstName: 'Palpatine',
+//         lastName: 'Unknown',
+//         living: true,
+//         bountyAmount: 2000000,
+//         type: 'Sith'
+//     },
+//     {
+//         firstName: 'Yoda',
+//         lastName: 'Unknown',
+//         living: false,
+//         bountyAmount: 1000000,
+//         type: 'Jedi'
+//     },
+//     {
+//         firstName: 'Darth',
+//         lastName: 'Bane',
+//         living: true,
+//         bountyAmount: 3000000,
+//         type: 'Sith'
+//     },
+//     {
+//         firstName: 'Anakin',
+//         lastName: 'Skywalker',
+//         living: false,
+//         bountyAmount: 1500000,
+//         type: 'Sith'
+//     },
+//     {
+//         firstName: 'Ahsoka',
+//         lastName: 'Tano',
+//         living: true,
+//         bountyAmount:750000,
+//         type: 'Jedi'
+//     }
+// ];
 
 
 
@@ -97,7 +97,7 @@ bountyRouter.get("/", async (req, res, next) => {
 
 //GET ONE
 bountyRouter.get("/:bountyId", (req, res) => {
-    bounty.findOne({_id: req.params.bountyId}, (err, foundItem) => {
+    Bounty.findOne({_id: req.params.bountyId}, (err, foundItem) => {
         if (err) {
             res.status(500)
             return next (err)
@@ -109,6 +109,7 @@ bountyRouter.get("/:bountyId", (req, res) => {
 //ADD ONE 
 bountyRouter.post('/', async(req, res, next) => {
     try {
+        console.log(req.body)
         const newBounty = new Bounty(req.body)
         const savedItem = await newBounty.save()
         return res.status(201).send(savedItem)
