@@ -1,11 +1,20 @@
 # Exclude the .git directory in the current directory
 !/.git
-# Ignore all .git directories
+
+# Ignore all .git directories in all subdirectories
 **/.git
+
 # Ignore all .env files in all directories and subdirectories
 **/*.env
+
 # Ignore all personal.md files
 personal.md
+
 # Ignore the directory named 9-Project-Assets
 9-Project-Assets/
 
+# Ignore the entire directory named other
+other/
+
+# Ignore the entire directory named 8-Coding-Resources
+8-Coding-Resources/

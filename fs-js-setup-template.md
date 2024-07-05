@@ -16,6 +16,8 @@
     a. npm install jsonwebtoken
 7. Install Bcrypt
     a. npm install bcrypt
+8. Install Express-jwt
+    a. npm install express-jwt
 
 # FRONTEND ===================================================================
 1. Install Vite
@@ -24,7 +26,9 @@
     c. npm install
 2. Install Axios
     a. npm install axios
-3. Replace code in vite.config.js with:
+3. Install react-router-dom
+    a. npm install  react-router-dom
+4. Replace code in vite.config.js with:
         import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
